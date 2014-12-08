@@ -2,7 +2,7 @@
 <html class="no-js">
     <head>
         <meta charset="utf-8">
-        <title>drinker</title>
+        <title>Drinker - A simple app for calculating your blood alcohol level.</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <link rel="shortcut icon" href="/favicon.ico">
@@ -18,54 +18,47 @@
         <!-- build:js scripts/vendor/modernizr.js -->
         <script src="../bower_components/modernizr/modernizr.js"></script>
         <!-- endbuild -->
-
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
     </head>
     <body>
         <!--[if lt IE 10]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
+        <header class="header">
+            <section class="container">
+                <h1><img src="images/logo.png" height="50" width="220" alt="Drinker"></h1>
+            </section>
+        </header>
 
-        <div class="container">
-            <div class="header">
-                <ul class="nav nav-pills pull-right">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-                <h3 class="text-muted">drinker</h3>
+        <div class="content container">
+            <h1>Calculate your BAC level<br /> with Drinker&trade;</h1>
+            <div class="phone">
+                <img src="images/iphone.png" alt="Drinker app">
             </div>
 
-            <div class="jumbotron">
-                <h1>'Allo, 'Allo!</h1>
-                <p class="lead">Always a pleasure scaffolding your apps.</p>
-                <p><a class="btn btn-lg btn-success" href="#">Splendid! <span class="glyphicon glyphicon-ok"></span></a></p>
+            <div class="info">
+                <p>Drinker&trade; is a simple BAC (Blood Alcohol Content) calculator that helps estimate your blood alcohol levels. Simply add your favourite drinks to see your results.</p>
+
+                <p>Like any other BAC calculator it cannot provide results with 100% accuracy due to the many variables that come into play that can affect an individuals BAC level. While Drinker&trade; takes into account age, gender, weight, drink amount, alcohol percentage and the period of time over which any alcohol has been consumed, it is based on the consumption of alcohol by an average healthy human being.</p>
             </div>
 
-            <div class="row marketing">
-                <div class="col-lg-6">
-                    <h4>HTML5 Boilerplate</h4>
-                    <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
-
-                    <h4>Sass</h4>
-                    <p>Sass is a mature, stable, and powerful professional grade CSS extension language.</p>
-
-
-                    <h4>Bootstrap</h4>
-                    <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
-
-                    <h4>Modernizr</h4>
-                    <p>Modernizr is an open-source JavaScript library that helps you build the next generation of HTML5 and CSS3-powered websites.</p>
-
-                </div>
-            </div>
-
-            <div class="footer">
-                <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+            <div class="download-btn">
+                <a href="#">
+                    <img src="images/app_store_download@2x.png" alt="Download Drinker app">
+                </a>
             </div>
 
         </div>
 
+        <footer class="footer">
+            <section class="container">
+                <ul>
+                    <li><a href="#">Terms and conditions</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                </ul>
+            </section>
+        </footer>
 
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
