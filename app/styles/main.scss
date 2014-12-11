@@ -8,10 +8,15 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 $blue: #4eb4ff;
 $grey: #677376;
 
+html {
+    height: 100%;
+}
+
 body {
     background: $blue;
     font-family: 'Open Sans', sans-serif;
     color: #fff;
+    height: 100%;
 }
 
 h1 {
@@ -55,6 +60,7 @@ h1 {
     padding: 20px 0;
     color: #fff;
     background: $grey;
+    clear: both;
     ul {
         padding: 0;
         margin: 0;
@@ -68,6 +74,7 @@ h1 {
 @media screen and (min-width: 768px) {
     .container {
         max-width: 730px;
+        height: 100%;
     }
 
     h1 br {

@@ -314,7 +314,7 @@ module.exports = function (grunt) {
                     cwd: '<%= config.app %>',
                     dest: '<%= config.dist %>',
                     src: [
-                        '*.{ico,png,txt}',
+                        '*.{ico,png,txt,pdf}',
                         '.htaccess',
                         'images/{,*/}*.webp',
                         '{,*/}*.html',
@@ -418,8 +418,8 @@ module.exports = function (grunt) {
         'copy:dist',
         'modernizr',
         'rev',
-        'usemin',
-        'htmlmin'
+        'usemin'
+        //'htmlmin'
     ]);
 
     grunt.registerTask('default', [
